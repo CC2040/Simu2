@@ -5,7 +5,8 @@ Examen de Programación - Tema 2
 
 Parte 1: Teoría Breve
 
-1. Pregunta 1: Explica brevemente en qué se diferencia una estructura if..else de una estructura switch. ¿Cuándo es preferible usar switch?
+### 1. Pregunta 1:
+Explica brevemente en qué se diferencia una estructura if..else de una estructura switch. ¿Cuándo es preferible usar switch?
 La estructura `if...else` evalúa condiciones booleanas y permite mayor flexibilidad, ya que puedes usar operadores de comparación complejos. En cambio, `switch` solo funciona con valores constantes y discretos (como enteros o caracteres), haciendo que sea más eficiente cuando hay múltiples opciones fijas.
 
 **Usa `switch` cuando tienes muchas opciones que dependen de valores específicos,** ya que puede ser más claro y rápido que una cadena de `if...else`.
@@ -42,7 +43,9 @@ switch (num) {
 #### Fuente chat GPT
 
 
-2. Pregunta 2: Describe la estructura básica de un bucle for y de un bucle while. ¿En qué caso usarías uno en lugar del otro?
+### 2. Pregunta 2:
+
+Describe la estructura básica de un bucle for y de un bucle while. ¿En qué caso usarías uno en lugar del otro?
 
 La estructura básica de un bucle `for` se utiliza cuando se conoce de antemano cuántas veces debe ejecutarse el ciclo, mientras que `while` es útil cuando el número de iteraciones depende de una condición que se evalúa en cada paso.
 
@@ -78,7 +81,7 @@ while (i < 5) {
     i++;
 }
 ```
-## Fuente Chat GPT
+#### Fuente Chat GPT
 
 Parte 2: Ejercicios Prácticos de Código
 
