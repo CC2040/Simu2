@@ -39,10 +39,46 @@ switch (num) {
         break;
 }
 ```
-### Fuente chat GPT
+#### Fuente chat GPT
 
 
 2. Pregunta 2: Describe la estructura básica de un bucle for y de un bucle while. ¿En qué caso usarías uno en lugar del otro?
+
+La estructura básica de un bucle `for` se utiliza cuando se conoce de antemano cuántas veces debe ejecutarse el ciclo, mientras que `while` es útil cuando el número de iteraciones depende de una condición que se evalúa en cada paso.
+
+### Estructura de un bucle `for`
+```cpp
+for (inicialización; condición; actualización) {
+    // Código a ejecutar en cada iteración
+}
+```
+
+### Estructura de un bucle `while`
+```cpp
+while (condición) {
+    // Código a ejecutar mientras la condición sea verdadera
+}
+```
+
+### Cuándo usar uno u otro
+Usa `for` cuando sabes la cantidad de repeticiones necesarias, como para recorrer elementos en un arreglo. Usa `while` cuando necesitas repetir hasta que se cumpla una condición, como leer entradas del usuario hasta que dé una respuesta específica.
+
+### Ejemplo de `for`
+```cpp
+for (int i = 0; i < 5; i++) {
+    cout << "Iteración " << i << endl;
+}
+```
+
+### Ejemplo de `while`
+```cpp
+int i = 0;
+while (i < 5) {
+    cout << "Iteración " << i << endl;
+    i++;
+}
+```
+## Fuente Chat GPT
 
 Parte 2: Ejercicios Prácticos de Código
 
