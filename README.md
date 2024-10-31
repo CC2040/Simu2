@@ -6,7 +6,40 @@ Examen de Programación - Tema 2
 Parte 1: Teoría Breve
 
 1. Pregunta 1: Explica brevemente en qué se diferencia una estructura if..else de una estructura switch. ¿Cuándo es preferible usar switch?
+La estructura `if...else` evalúa condiciones booleanas y permite mayor flexibilidad, ya que puedes usar operadores de comparación complejos. En cambio, `switch` solo funciona con valores constantes y discretos (como enteros o caracteres), haciendo que sea más eficiente cuando hay múltiples opciones fijas.
 
+**Usa `switch` cuando tienes muchas opciones que dependen de valores específicos,** ya que puede ser más claro y rápido que una cadena de `if...else`.
+
+### Ejemplo de `if...else`
+```cpp
+int num = 2;
+
+if (num == 1) {
+    cout << "Es uno.";
+} else if (num == 2) {
+    cout << "Es dos.";
+} else {
+    cout << "No es uno ni dos.";
+}
+```
+
+### Ejemplo de `switch`
+```cpp
+int num = 2;
+
+switch (num) {
+    case 1:
+        cout << "Es uno.";
+        break;
+    case 2:
+        cout << "Es dos.";
+        break;
+    default:
+        cout << "No es uno ni dos.";
+        break;
+}
+```
+# Fuente chat GPT
 2. Pregunta 2: Describe la estructura básica de un bucle for y de un bucle while. ¿En qué caso usarías uno en lugar del otro?
 
 Parte 2: Ejercicios Prácticos de Código
