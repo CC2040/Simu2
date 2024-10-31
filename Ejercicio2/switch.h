@@ -1,16 +1,9 @@
-//
-// Created by carlo on 31/10/2024.
-//
 
 #ifndef SWITCH_H
 #define SWITCH_H
 
 
-
-class switch {
-
-};
-
+void dia();
 
 
 #endif //SWITCH_H

@@ -5,12 +5,6 @@
 #ifndef BUCLE_H
 #define BUCLE_H
 
-
-
-class bucle {
-
-};
-
-
+void suma();
 
 #endif //BUCLE_H
