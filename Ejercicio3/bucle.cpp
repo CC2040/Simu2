@@ -15,9 +15,12 @@ void suma_for() {
 
 void suma_while() {
     int d=0,e=0;
-    while (d<=50) {
-        e=e+d;
-        d++;
-    }
-    cout << "La suma entre los numeros pares del 1 al 50 es: " << d;
+        while (d<=50) {
+            if(d%2==0) {
+                e=e+d;
+            }
+            d++;
+        }
+
+    cout << "La suma entre los numeros pares del 1 al 50 es: " << e;
 }
