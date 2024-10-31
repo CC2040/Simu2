@@ -6,11 +6,7 @@
 #define ARRAYS_H
 
 
-
-class arrays {
-
-};
-
+void arreglo();
 
 
 #endif //ARRAYS_H

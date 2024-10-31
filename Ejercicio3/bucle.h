@@ -5,6 +5,7 @@
 #ifndef BUCLE_H
 #define BUCLE_H
 
-void suma();
+void suma_for();
+void suma_while();
 
 #endif //BUCLE_H
