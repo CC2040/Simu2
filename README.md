@@ -39,7 +39,9 @@ switch (num) {
         break;
 }
 ```
-# Fuente chat GPT
+### Fuente chat GPT
+
+
 2. Pregunta 2: Describe la estructura básica de un bucle for y de un bucle while. ¿En qué caso usarías uno en lugar del otro?
 
 Parte 2: Ejercicios Prácticos de Código
